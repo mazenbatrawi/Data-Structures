@@ -32,7 +32,7 @@ int isEmpty(struct Node* L){
     return L -> next == NULL;
 }
 
-// This function adds a new node to the list, it adds the coefficient and the power to the specified position in the list.
+// This function adds a new node to the list, it adds the coefficient and the power to the specified position in the list. 
 void insert(struct Node* L, struct Node* Position, int power, double num){
     struct Node* node = (struct Node*) malloc(sizeof(struct Node));
     if(node == NULL) return;
